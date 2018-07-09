@@ -1,0 +1,9 @@
+version: '2.0'
+
+services:
+    ex1:
+        build:
+            context:  ./parti1
+            dockerfile: Dockerfile
+        ports:
+            - "8000:80"
